@@ -1,7 +1,7 @@
 import Link from "next/link";
 function index() {
   return (
-    <header className="w-full section-padding py-8 bg-white border-b border-gray-800 flex justify-between items-center">
+    <header className="w-full section-padding py-8 bg-white border-b-2 border-gray-800 flex justify-between items-center">
       <h1 className="text-4xl font-bold  text-cyan-800 hover:text-cyan-900 text-shadow-sm shadow-gray-200 cursor-pointer">
         <Link href="/">CA Karan Solanki</Link>
       </h1>

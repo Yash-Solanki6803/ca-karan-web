@@ -4,10 +4,10 @@ function HeroSection() {
     <section className="flex section-padding py-10 h-[60vh] cursor-default">
       <div
         className="flex flex-col justify-between items-start
-         py-10 pr-20 w-1/2 border-r-4 border-gray-800"
+         py-10 pr-20 w-1/2 border-r-2 border-gray-800"
       >
         <div>
-          <h2 className="text-5xl font-bold text-gray-800">
+          <h2 className="text-5xl font-bold text-gray-800 font-montserrat">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Reprehenderit pariatur placeat .
           </h2>
@@ -16,7 +16,7 @@ function HeroSection() {
             explicabo.
           </p>
         </div>
-        <button className="bg-cyan-900 text-white shadow-md shadow-transparent px-6 py-2 rounded-md hover:bg-cyan-700 hover:shadow-gray-800 transition-all duration-300">
+        <button className="bg-cyan-900 text-white shadow-md shadow-transparent px-6 py-2 rounded-md hover:bg-cyan-700 hover:shadow-gray-800 transition-all duration-300 font-montserrat">
           Explore Services
         </button>
       </div>
