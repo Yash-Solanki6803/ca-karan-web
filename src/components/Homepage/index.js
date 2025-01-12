@@ -1,3 +1,4 @@
 export { default as HeroSection } from "./HeroSection/HeroSection.jsx";
 export { default as AboutSection } from "./AboutSection/AboutSection.jsx";
 export { default as ServiceSection } from "./ServiceSection/ServiceSection.jsx";
+export { default as NewsLetterSection } from "./NewsLetterSection/NewsLetterSection.jsx";

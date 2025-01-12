@@ -1,6 +1,7 @@
 import {
   AboutSection,
   HeroSection,
+  NewsLetterSection,
   ServiceSection,
 } from "@/components/Homepage";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ServiceSection />
+      <NewsLetterSection />
     </>
   );
 }
