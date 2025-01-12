@@ -3,8 +3,8 @@ import ServiceCard from "./ServiceCard";
 function ServiceSection() {
   return (
     <section className="flex section-padding py-20 h-[80vh] bg-white text-gray-800 flex-col relative">
-      <div className=" h-full z-10 flex flex-col gap-10">
-        <h2 className="text-5xl font-semibold font-montserrat text-center">
+      <div className=" h-full z-10 flex flex-col gap-10 items-center">
+        <h2 className="text-7xl font-bold font-montserrat text-center tracking-widest hover:-translate-x-1 hover:-translate-y-1 hover:text-cyan-900 transition-all duration-300 w-fit">
           OUR SERVICES
         </h2>
         <article className=" h-full flex gap-10">
