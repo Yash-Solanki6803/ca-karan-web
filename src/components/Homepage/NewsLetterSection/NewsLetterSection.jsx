@@ -25,8 +25,8 @@ function NewsLetterSection() {
         </div>
       </div>
       <div className=" absolute   left-0 w-full h-full bottom-0 flex flex-row">
-        <div className="w-1/2 h-full  bg-white"></div>
-        <div className="w-1/2 h-full  bg-gray-200"></div>
+        <div className="w-full h-full  bg-gradient-to-r from-white to-gray-300"></div>
+        {/* <div className="w-1/2 h-full  bg-gray-100"></div> */}
       </div>
     </section>
   );

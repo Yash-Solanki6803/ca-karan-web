@@ -29,10 +29,10 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased select-none`}
       >
         <Header />
-        <main className="flex flex-col min-h-screen bg-gray-50 select-none font-lato">
+        <main className="flex flex-col min-h-screen bg-gray-50  font-lato">
           {children}
         </main>
         <Footer />

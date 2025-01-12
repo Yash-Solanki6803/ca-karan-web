@@ -36,8 +36,8 @@ function ServiceSection() {
         </article>
       </div>
       <div className=" absolute  left-0 w-full h-1/2 bottom-0 flex flex-row">
-        <div className="w-1/2 h-full  bg-cyan-800"></div>
-        <div className="w-1/2 h-full  bg-cyan-900"></div>
+        {/* // Add a gradient background to the bottom of the section */}
+        <div className="w-full h-full  bg-gradient-to-r from-cyan-600 to-cyan-900"></div>
       </div>
     </section>
   );
